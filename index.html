@@ -4,12 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TicTacToe</title>
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel = "stylesheet" href ="app.js"/>
 </head>
 <body>
     <header>
-        <h1>Tic Tac Toe</h1>
-        <h3>Player 1</h3>
+        <h1 class="title" >Tic-Tac-Toe</h1>
+        <section class="players">
+            <span>Player 1: <span id="player1"></span></span>
+            <span>Player 2: <span id="player2"></span></span>
+        </section> 
+        <div id="scoreboardTitle">SCOREBOARD</div>
+            <section class="scoreboard">
+            <div id="player1score">0</div>
+            <div id="player2score">0</div>
+        </section>
+
     </header>
+<main>
+    <section class="boxes">
+    <div id="box1">1</div>
+    <div id="box2">2</div>
+    <div id="box3">3</div>
+    </section>
+    <section class="boxes">
+    <div id="box4">4</div>
+    <div id="box5">5</div>
+    <div id="box6">6</div>
+    </section>
+    <section class="boxes">
+    <div id="box7">7</div>
+    <div id="box8">8</div>
+    <div id="box9">9</div>
+    </section>
+</main>
+<footer>
+    <button class="restart">Play Again!</button>
+    <br>
+    <br>
+    <button class="resetScoreboard">Reset Scoreboard</button>
+</footer>
 </body>
 </html>

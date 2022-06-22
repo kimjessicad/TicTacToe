@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:black;
+    color:white;
+    font-family: 'Slackey', cursive;
+}
+header{
+    display:block;
+    text-align: center;
+}
+.title{
+    font-size: 50px;
+}
+.players{
+    display: flex;
+    justify-content: space-around;    
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 25px;
+    /* border: 1px solid pink; */
+}
+#player1{
+    display: flex;
+    margin-right: 10px;
+    min-width: 150px;
+    min-height: 50px;
+    font-size: 25px;
+    /* border: 1px solid pink; */
+}
+#player2{
+    display: flex;
+    margin-left: 10px;
+    min-width: 150px;
+    min-height: 50px;
+    font-size: 25px;
+    /* border: 1px solid pink; */
+}
+.scoreboard{
+    display: flex;
+    justify-content:space-around;    
+    margin-left: 40%;
+    margin-right: 40%;
+    /* border: 1px solid pink; */
+}
+#player1score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+#player2score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.scoreboard div{
+    background-color: #001429;
+    color:#BAC1B8;
+    border: 1px solid #BAC1B8;
+    border-radius: 8%;
+    min-height: 80px;
+    min-width: 80px;
+    text-align: center;
+}
+#scoreboardTitle{
+    text-align: center;
+
+}
+main{
+    box-sizing: border-box;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding: 2%;
+    min-height:400px; /* edit out later */
+    text-align: center;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+}
+
+.boxes div:hover{
+    box-shadow: 5px 1px 5px white;
+}
+
+.boxes div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BAC1B8;
+    border: 5px solid #001429;
+    border-radius: 8%;
+    min-height: 150px;
+    min-width: 150px;
+}
+footer{
+    display:block;
+    text-align: center;
+}
+.restart{
+    background-color: #001429;
+    color:#BAC1B8;
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 1%;
+    font-size: 30px;
+    font-family: 'Slackey', cursive;
+}
+.restart:hover{
+    box-shadow: 0px 5px 3px white;
+}
+
+.resetScoreboard{
+    background-color: #001429;
+    color:#BAC1B8;
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 1%;
+    font-size: 11px;
+    font-family: 'Slackey', cursive;
+}
+.resetScoreboard:hover{
+    box-shadow: 0px 3px 3px white;
+}
