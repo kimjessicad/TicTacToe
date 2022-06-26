@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic-Tac-Toe</title>
     <link rel="stylesheet" href="style.css"/>
-    <link rel = "stylesheet" href ="app.js"/>
+    <script defer src="app.js"></script>
 </head>
 <body>
     <header>
@@ -14,36 +14,34 @@
         <section class="players">
             <span>Player 1: <span id="player1"></span></span>
             <span>Player 2: <span id="player2"></span></span>
-        </section> 
+        <!-- </section> 
         <div id="scoreboardTitle">SCOREBOARD</div>
-            <section class="scoreboard">
-            <div id="player1score">0</div>
-            <div id="player2score">0</div>
-        </section>
+        </section> -->
 
     </header>
 <main>
-    <section class="boxes">
-    <div id="box1">1</div>
-    <div id="box2">2</div>
-    <div id="box3">3</div>
+    <section>
+        <div class="whoseTurn">Player 1, pick a cell to put an X</div>
     </section>
-    <section class="boxes">
-    <div id="box4">4</div>
-    <div id="box5">5</div>
-    <div id="box6">6</div>
+    <section>
+    <div class="board">
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+    <div class="box box4"></div>
+    <div class="box box5"></div>
+    <div class="box box6"></div>
+    <div class="box box7"></div>
+    <div class="box box8"></div>
+    <div class="box box9"></div>
+    </div>
     </section>
-    <section class="boxes">
-    <div id="box7">7</div>
-    <div id="box8">8</div>
-    <div id="box9">9</div>
+    <section>
+        <div class="status">pop up winner/draw</div>
     </section>
 </main>
 <footer>
     <button class="restart">Play Again!</button>
-    <br>
-    <br>
-    <button class="resetScoreboard">Reset Scoreboard</button>
 </footer>
 </body>
 </html>
