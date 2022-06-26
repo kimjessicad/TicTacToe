@@ -20,7 +20,7 @@ header{
     font-size: 25px;
     /* border: 1px solid pink; */
 }
-#player1{
+.player1{
     display: flex;
     margin-right: 10px;
     min-width: 150px;
@@ -28,7 +28,7 @@ header{
     font-size: 25px;
     /* border: 1px solid pink; */
 }
-#player2{
+.player2{
     display: flex;
     margin-left: 10px;
     min-width: 150px;
@@ -68,18 +68,26 @@ header{
     text-align: center;
 } */
 main{
-    box-sizing: border-box;
+    box-sizing: flex;
+    justify-content: center;
     margin-right: 20%;
     margin-left: 20%;
     padding: 2%;
-    min-height:400px; /* edit out later */
     text-align: center;
+        /* border: 1px solid pink; */
+}
+section{
+    display: flex;
+    justify-content: center;
 }
 .board{
     padding: 20px;
     width: 500px;
+    min-width: 500px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+        border: 1px solid pink;
 }
 
 .board div:hover{
