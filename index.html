@@ -11,21 +11,21 @@
 <body>
     <header>
         <h1 class="title" >Tic-Tac-Toe</h1>
-        <section class="players">
-            <div class="player1">
-                <input type = "text" placeholder = "Enter player X name here" id = "player1">
-            </div>
-            <div class="player2">
-                <input type = "text" placeholder = "Enter player O name here" id = "player1">
-            </div>
-        <!-- </section> 
-        <div id="scoreboardTitle">SCOREBOARD</div>
-        </section> -->
-
     </header>
 <main>
+    <section class="players">
+        <div id="player1_name">
+            <input type = "text" placeholder = "Enter player X name here" id = "player1Input">
+        </div>
+        <div id="player2_name">
+            <input type = "text" placeholder = "Enter player O name here" id = "player2Input">
+        </div>
+    </section> 
+    <!-- <section>
+    <div id="scoreboardTitle">SCOREBOARD</div>
+    </section> -->
     <section>
-        <div class="whoseTurn">Player 1, pick a cell to put an X</div>
+        <div class="statusBox">Player 1 (X) turn</div>
     </section>
     <section>
     <div class="board">
@@ -39,9 +39,6 @@
     <div class="box box8"></div>
     <div class="box box9"></div>
     </div>
-    </section>
-    <section>
-        <div class="status">pop up winner/draw</div>
     </section>
 </main>
 <footer>

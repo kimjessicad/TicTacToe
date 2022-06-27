@@ -14,24 +14,26 @@ header{
 }
 .players{
     display: flex;
-    justify-content: space-around;    
+    justify-content: space-between;    
     margin-left: 25%;
     margin-right: 25%;
     font-size: 25px;
-    /* border: 1px solid pink; */
+    border: 1px solid pink;
 }
-.player1{
+#player1_name{
     display: flex;
     margin-right: 10px;
-    min-width: 150px;
+    min-width: 250px;
+    width:250px;
     min-height: 50px;
     font-size: 25px;
     /* border: 1px solid pink; */
 }
-.player2{
+#player2_name{
     display: flex;
     margin-left: 10px;
-    min-width: 150px;
+    min-width: 250px;
+    width:250px;
     min-height: 50px;
     font-size: 25px;
     /* border: 1px solid pink; */
@@ -87,7 +89,7 @@ section{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-        border: 1px solid pink;
+    /* border: 1px solid pink; */
 }
 
 .board div:hover{
